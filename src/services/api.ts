@@ -1,7 +1,8 @@
 import axios from "axios";
 import { getToken } from "../utils/auth";
 
-const API_BASE_URL = "http://localhost:8010";
+// const API_BASE_URL = "http://localhost:8010";
+const API_BASE_URL = `https://substring-tree-backend.onrender.com`;
 
 axios.interceptors.request.use(
   (config: any) => {
